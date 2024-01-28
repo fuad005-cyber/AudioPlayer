@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3 PLAYER</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;0,400;0,500;0,600;0,800;1,200&family=Montserrat:wght@300;400;500;600;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/icon.png">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <main>
+        <section id="section1">
+
+            <div class="container">
+                <div class="player__div">
+                    <nav>
+                        <div class="nav__items">
+                            <button class="strelka"><img src="./img/Arrow 1.svg"></button>
+                            <button class="burger"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/120px-Hamburger_icon_white.svg.png?20190820131613"></button>
+                        </div>
+                    </nav>
+                    <div class="img__div">
+                            <img src="./img/music1.png" class="music_img">
+                    </div>
+                    <div class="info__div">
+                        <h2 class="name_of_music">Freetato</h2>
+                        <p class="music_desc">Now playing</p>
+                        <audio src="./audio/Freetato.mp3" class="my__music"></audio>  
+                            <div class="progress__bar">
+                                <div class="progress__border"></div>
+                            </div>
+                        <div class="timecode">
+                            <p class="timecode_start">-5:45</p>
+                            <p class="timecode_end">10:32</p>
+                        </div>
+                    </div>
+                    <div class="player_btns">
+                        <button class="btn_previous"><img src="./img/previous.svg" alt=""></button>
+                        <button class="start_stop-btn"><img src="./img/pause.png" class="start_stop"></button>
+                        <button class="next"><img src="./img/next.svg" alt=""></button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    
+
+    
+
+    <script src="./assets/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 1140px;
+    width: 85%;
+    margin: 30px auto;
+}
+.nav__items {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    fill: linear-gradient(146deg, rgba(0, 0, 0, 0.20) 17.05%, rgba(30, 30, 30, 0.06) 82.59%);
+    stroke-width: 1px;
+    stroke: #5E5E5E;
+    filter: drop-shadow(0px 2px 23px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 59px;
+    height: 59px;
+    background: #004448;
+    border-radius: 50%;
+
+}
+img {
+    width: 24px;
+}
+
+.player__div {
+    width: 368px;
+    height: 715px;
+    border-radius: 45px;
+    background: #004448;
+    mix-blend-mode: color-burn;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.img__div {
+    margin-left: 35px;
+    width: 314px;
+    height: 314px;
+}
+.img__div img {
+    width: 314px;
+    height: 314px;
+}
+.info__div {
+    text-align: center;
+
+}
+.music_desc {
+    padding-top: 10px;
+    color: #B8B8B8;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Montserrat Alternates";
+    font-size: 14px;
+    font-weight: 400;
+}
+.name_of_music {
+    color: #00E0FF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Montserrat Alternates";
+    font-size: 24px;
+    font-weight: 600;
+}
+/* INPUT  */
+.range {
+    width: 320px;
+    height: 10px;
+    border-radius: 60px;
+    overflow: hidden;
+    outline: none;
+}
+
+.timecode {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px 0px 10px;
+}
+.player_btns {
+    text-align: center;
+}
+.player_btns button img {
+    text-align: center;
+}
+.timecode p {
+    padding-top: 10px;
+    color: #B8B8B8;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Montserrat Alternates";
+    font-size: 14px;
+    font-weight: 400;
+}
+.music_img {
+fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+stroke-width: 8px;
+stroke: #636363;
+filter: drop-shadow(9px 9px 42px rgba(0, 0, 0, 0.70));
+border-radius: 50% ;
+}
+
+.progress__bar {
+    margin-left: 36px;
+    position: relative;
+    width: 280px;
+    height: 5px;
+    border: 3px solid #525151;
+    margin-top: 45px;
+}
+.progress__bar:hover {
+    cursor: pointer;
+}
+.progress__border {
+left: -3px;
+position: absolute;
+border: 3px solid #000;
+top: -2.5px;
+}
+
